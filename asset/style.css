@@ -68,10 +68,19 @@ tbody tr th img{
   margin-right: 5px;
 }
 
-tbody tr th span{
+thead,
+tbody{
   vertical-align: middle;
   font-size: 0.9rem;
 }
+
+td:nth-child(2),
+td:nth-child(3),
+th:nth-child(2),
+th:nth-child(3){
+  display: none;
+}
+
 
 /* Responsive */
 
@@ -87,5 +96,13 @@ tbody tr th span{
   .main_content{
     width: calc(100% - 150px);
   }
+
+  td:nth-child(2),
+  td:nth-child(3),
+  th:nth-child(2),
+  th:nth-child(3){
+    display: revert;
+  }
+
 }
 
