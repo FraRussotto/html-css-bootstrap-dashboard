@@ -58,6 +58,7 @@ main{
   overflow: auto;
 }
 
+/* Table */
 tbody tr th{
   width: 60%;
 }
@@ -79,6 +80,11 @@ td:nth-child(3),
 th:nth-child(2),
 th:nth-child(3){
   display: none;
+}
+
+/* Accordion */
+.accordion p{
+  font-size: 0.9rem;
 }
 
 
