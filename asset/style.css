@@ -54,12 +54,13 @@ main{
 .main_content{
   width: calc(100% - 50px);
   height: 100%;
+  background-color: #f8f9fa;
   overflow: auto;
 }
 
 /* Table */
-tbody tr th{
-  width: 60%;
+tbody tr td{
+  width: 100px;
 }
 
 tbody tr th img{
@@ -79,6 +80,10 @@ td:nth-child(3),
 th:nth-child(2),
 th:nth-child(3){
   display: none;
+}
+
+tbody .btn{
+  padding: 0.2rem 0.4rem;
 }
 
 /* Accordion */
