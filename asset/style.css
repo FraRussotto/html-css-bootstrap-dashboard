@@ -58,6 +58,34 @@ main{
   overflow: auto;
 }
 
+/* Main content bar */
+.bkg_main_content_bar{
+  background-color: #1b72e8;
+}
+
+.main_content_bar{
+  height: 80px;
+  color: white;
+}
+
+.left-name h2{
+  margin-right: 5px;
+}
+
+.left .pills{
+  padding: 0.1rem 0.5rem;
+  margin: 0 1px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #165bba;
+  border-radius: 0.8rem;
+}
+
+.left i{
+  font-size: 0.8rem;
+  margin: 0 2px;
+}
+
 /* Table */
 tbody tr td{
   width: 100px;
