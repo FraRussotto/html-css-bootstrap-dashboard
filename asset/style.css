@@ -78,7 +78,6 @@ main{
 }
 
 .aside_bar li{
-  width: 100%;
 }
 
 .aside_bar span{
@@ -90,6 +89,7 @@ main{
 .bottom_aside:hover{
   background-color: rgba(128, 128, 128, 0.468);
 }
+
 
 
 /* Main Content */
@@ -183,7 +183,7 @@ tbody .btn{
   }
 
   .w-100{
-    width: 50%;
+    width: 100%;
   }
 }
 
