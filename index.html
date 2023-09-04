@@ -23,7 +23,7 @@
 </head>
 <body>
   <header>
-    <div class="top_bar my-2 d-flex">
+    <div class="top_bar d-flex">
       <div class="logo text-center">
         <img src="./asset/img/logo.svg" alt="logo">
       </div>
@@ -59,27 +59,27 @@
         <div class="top_aside">
           <ul class="list-unstyled">
             <a href="#">
-              <li>
+              <li class="p-2">
                 <i class="fa-solid fa-house"></i>
                 <span>Home</span>
               </li>
             </a>
             <a href="#">
-              <li>
-                <i class="fa-solid fa-chart-simple"></i>
+              <li class="p-2">
+                <i class="fa-solid fa-chart-simple me-1"></i>
                 <span>Stats</span>
               </li>
             </a>
             <a href="#">
-              <li>
+              <li class="p-2">
                 <i class="fa-solid fa-signal"></i>
                 <span>Signals</span>
               </li>
             </a>
           </ul>
         </div>
-        <div class="bottom_aside">
-          <a href="#">
+        <div class="bottom_aside p-2">
+          <a href="#" class="">
             <i class="fa-solid fa-gear"></i>
             <span>Admin</span>
           </a>
@@ -93,11 +93,11 @@
           <div class="main_content_bar d-md-flex">
             <div class="add_student d-flex align-items-center">
               <span class="fs-6 me-3">Nuovo Studente</span>
-              <button type="button" class="btn btn-outline-light h-50" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+              <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
                 <i class="fa-solid fa-plus"></i>
               </button>
               
-              <div class="offcanvas w-100 offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+              <div class="offcanvas w-100 w_fr offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="staticBackdropLabel">Inserisci un nuovo studente</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>

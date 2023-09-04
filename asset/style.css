@@ -9,10 +9,6 @@ body{
   min-height: 50px;
 }
 
-/* [class^=col]{
-  background-color: cadetblue;
-}
- */
 a{
   text-decoration: none;
   color: white;
@@ -21,10 +17,13 @@ a{
 /* TOP BAR */
 header{
   background-color: #f8f9fa;
-  padding: 5px 0;
+  padding: 10px 0;
 }
+
 .top_bar{
   width: 100%;
+  height: 50px;
+
   background-color: white;
 }
 
@@ -36,7 +35,7 @@ header{
 .logo img{
   width: 100%;
   height: 100%;
-  padding: 10px 0 10px 10px;
+  padding: 10px 5px 10px 10px;
 }
 
 .search_bar{
@@ -78,13 +77,18 @@ main{
   background-image: url(./img/sidebar-bg.png);
 }
 
-.aside_bar .top_aside li{
-  margin-bottom: 20px;
+.aside_bar li{
+  width: 100%;
 }
 
 .aside_bar span{
   display: none;
-  margin-left: 10px;
+  margin-left: 5px;
+}
+
+.top_aside li:hover,
+.bottom_aside:hover{
+  background-color: rgba(128, 128, 128, 0.468);
 }
 
 
@@ -121,6 +125,11 @@ main{
 .plane i{
   font-size: 0.8rem;
   margin: 0 2px;
+}
+
+.pills:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 /* Table */
@@ -172,6 +181,10 @@ tbody .btn{
     order: 3;
     align-self: flex-start;
   }
+
+  .w-100{
+    width: 50%;
+  }
 }
 
 
@@ -188,4 +201,6 @@ tbody .btn{
     width: calc(100% - 150px);
   }
 }
+
+
 
