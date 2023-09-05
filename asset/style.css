@@ -182,8 +182,8 @@ tbody .btn{
     align-self: flex-start;
   }
 
-  .w-100{
-    width: 100%;
+  .offcanvas{
+    width: 50%;
   }
 }
 
