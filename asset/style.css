@@ -23,13 +23,11 @@ header{
 .top_bar{
   width: 100%;
   height: 50px;
-
   background-color: white;
 }
 
-.top_bar .logo,
-.top_bar .action{
-  width: 150px;
+.logo{
+  width: 50px;
 }
 
 .logo img{
@@ -39,7 +37,7 @@ header{
 }
 
 .search_bar{
-  width: calc(100% - 150px);
+  width: calc(100% - 50px);
   padding-left: 10px;
 }
 
@@ -86,8 +84,6 @@ main{
 .bottom_aside:hover{
   background-color: rgba(128, 128, 128, 0.468);
 }
-
-
 
 /* Main Content */
 .main_content{
@@ -167,8 +163,16 @@ tbody .btn{
 
 
 /* Responsive */
-
 @media screen and (min-width: 768px){
+  .top_bar .search_bar{
+    width: calc(100% - 150px);
+  }
+
+  .top_bar .logo,
+  .top_bar .action{
+    width: 150px;
+  }
+
   td:nth-child(3),
   th:nth-child(3),
   td:nth-child(2),
