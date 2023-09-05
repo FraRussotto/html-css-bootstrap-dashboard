@@ -77,9 +77,6 @@ main{
   background-image: url(./img/sidebar-bg.png);
 }
 
-.aside_bar li{
-}
-
 .aside_bar span{
   display: none;
   margin-left: 5px;
@@ -132,6 +129,11 @@ main{
   cursor: pointer;
 }
 
+.add_student .offcanvas{
+  width: 100%;
+}
+
+
 /* Table */
 tbody tr td{
   width: 100px;
@@ -165,6 +167,7 @@ tbody .btn{
 
 
 /* Responsive */
+
 @media screen and (min-width: 768px){
   td:nth-child(3),
   th:nth-child(3),
@@ -182,7 +185,7 @@ tbody .btn{
     align-self: flex-start;
   }
 
-  .offcanvas{
+  .add_student .offcanvas{
     width: 50%;
   }
 }
